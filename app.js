@@ -3085,7 +3085,7 @@ function day2pt2(testData){
         valid = false  
       }
 
-
+// had to force my way through
       if(dict['hcl'][0] != '#' || dict['hcl'].length > 7 || dict['hcl'].length < 7 || dict['hcl'].includes('g') || dict['hcl'].includes('h') || dict['hcl'].includes('i')|| dict['hcl'].includes('j')|| dict['hcl'].includes('k')|| dict['hcl'].includes('l')|| dict['hcl'].includes('m')|| dict['hcl'].includes('n')|| dict['hcl'].includes('o')|| dict['hcl'].includes('p')|| dict['hcl'].includes('q')|| dict['hcl'].includes('r')|| dict['hcl'].includes('s')|| dict['hcl'].includes('t')|| dict['hcl'].includes('u')|| dict['hcl'].includes('v')|| dict['hcl'].includes('w')|| dict['hcl'].includes('x')|| dict['hcl'].includes('y')|| dict['hcl'].includes('z') ){
         valid = false
       }
