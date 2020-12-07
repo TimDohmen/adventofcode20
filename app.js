@@ -4138,8 +4138,24 @@ debugger
   let testData= `BFFFBBFRRR
   FFFBBBFRRR
   BBFFBBFRLL`
-  day5(day5Data)
+  // day5(day5Data)
 
+
+ function day5new(data){
+data= data.split('\n')
+data.forEach(str => {
+  str=str.trim()
+  let arr =str.split("")
+  
+  arr.map(l=> parseInt(1,))
+    // l == 'B' ? 1 : l == 'F' ? 0 :""})
+  // l == "R" ? 1 : l == 'L' ? 0
+  console.log(arr, 'poo');
+  console.log(parseInt(str,2));
+});
+  }
+
+  day5new(testData)
   //859
   //855
   //847
@@ -4149,4 +4165,4 @@ debugger
   //b == 0 f == 1
 
 
-
+//did day6 on desktop devtools sadly, super easy dictionary counting 
